@@ -5,4 +5,3 @@ while x < len(notas):
     soma += notas[x]
     x += 1
 print(f'Média: {soma / x:.2f}')
-            

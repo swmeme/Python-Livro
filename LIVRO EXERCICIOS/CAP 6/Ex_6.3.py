@@ -18,8 +18,7 @@ lista_3 = lista_1[:] #6 criamos a variavel lista_3 sendo uma cópia da lista 1
 lista_3.extend(lista_2) #7 aqui utilizamos o método extend pois estamos adicionando uma 
                         #lista a outra, e se usássemos o método .append este crearia um item 
                         #na lista_3 no formato da lista a ser adicionada, no caso a lista_2
+semrepetidos = [] #8 aqui criamos a lista vazia para inserir os numeros não repetidos
 
-x = 0 #8 aqui teremos o nosso contador/indice para a lista_3
+x = 0 #9 aqui teremos o nosso contador/indice para a lista_3
 while x < len(lista_3):
-    print(f'{x}: {lista_3[x]}') #9 aqui vai imprimir todos os itens da lista_3 informando o indice
-    x += 1

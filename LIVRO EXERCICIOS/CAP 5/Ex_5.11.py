@@ -2,8 +2,8 @@
 
 deposito_init = float(input('Qual o valor do depósito inicial? '))
 taxa = float(input('Qual a taxa de juros? ')) / 100
-mes = 1
-saldo = deposito_init
+mes = 1 #contador
+saldo = deposito_init #acumulador
 while mes <= 24:
     saldo = saldo + (saldo * taxa)
     print(f'Saldo do mês {mes} é de R$ {saldo:5.2f}')

@@ -1,3 +1,4 @@
+#Faça um programa que leia duas listas e que gere uma terceira com os elementos das duas primeiras.
 lista_1 = [] #1 define a primeira lista como uma lista vazia
 lista_2 = [] #2 define a segunda lista como uma lista vazia
 
@@ -21,5 +22,5 @@ lista_3.extend(lista_2) #7 aqui utilizamos o método extend pois estamos adicion
 
 x = 0 #8 aqui teremos o nosso contador/indice para a lista_3
 while x < len(lista_3):
-    print(f'{x}: {lista_3[x]}') #9 aqui vai imprimir todos os itens da lista_3 informando o indice
+    print(f'{x+1}: {lista_3[x]}') #9 aqui vai imprimir todos os itens da lista_3 informando o indice
     x += 1

@@ -1,3 +1,5 @@
+# Pograma 6.2 - Cálculo de médias com notas digitadas
+
 notas = [0, 0, 0, 0, 0]
 soma = 0
 x = 0

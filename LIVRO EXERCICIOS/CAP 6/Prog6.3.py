@@ -1,3 +1,5 @@
+#Programa 6.3 - Apresentação de números
+
 num = [0] * 5
 x = 0
 while x < 5:

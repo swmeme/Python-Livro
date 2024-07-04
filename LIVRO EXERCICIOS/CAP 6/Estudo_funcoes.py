@@ -25,7 +25,7 @@ print()
 '''
 # Função Range
   
-  A função range retorna um generator e uma função para imprimir uma sequencia de 0 a 9 seria:
+  A função range retorna um generator, uma função para imprimir uma sequencia de 0 a 9 seria:
 '''
 for item in range(10):
     print(item)
@@ -44,8 +44,9 @@ um salto, por exemplo:
   Existe outra função chamada enumerate onde podemos aumentar a funcionalidade do loop for,
   caso queiramos imprimir uma lista onde teremos o indice também presente:
 '''
+contador2 = 0
 for item in lista:
-    print(f'[{contador}] {item}')
+    print(f'[{contador2}] {item}')
     contador += 1
 print()
 '''

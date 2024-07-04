@@ -1,5 +1,5 @@
 '''
-# Programa 6.13 - Controle da utilizaç;ão das salas de cinema.
+# Programa 6.13 - Controle da utilização das salas de cinema.
 **************************************************************
 '''
 # Aqui a temos as salas 1, 2, 3, 4 e 5 com as seguintes vagas respectivamente:

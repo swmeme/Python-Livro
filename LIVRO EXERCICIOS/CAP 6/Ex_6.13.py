@@ -15,6 +15,6 @@ for e in T:
     soma += e
 
 media = soma / len(T)
-print(f'A temperatura media foi de: {media:.2f}')
-print(f'A temperatura mais alta é: {maximo}')
-print(f'A temperatura mais baixa é: {minimo}')
+print(f'A temperatura media foi de: {media:.2f} °C')
+print(f'A temperatura mais alta é: {maximo} °C')
+print(f'A temperatura mais baixa é: {minimo} °C')

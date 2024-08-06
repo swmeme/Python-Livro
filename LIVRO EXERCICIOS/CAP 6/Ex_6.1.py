@@ -1,3 +1,4 @@
+#Calcular a media de sete notas
 notas = [0, 0, 0, 0, 0, 0, 0]  # Ou [0] * 7
 soma = 0
 x = 0

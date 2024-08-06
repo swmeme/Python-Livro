@@ -1,12 +1,12 @@
 # Programa 5.1  - Contagem de Cédulas
 valor = int(input('Digite o valor a pagar: '))
-cedulas = 0
-atual = 50
-apagar = valor
+cedulas = 0 #contador
+atual = 50 #valor atual da maior cédula
+apagar = valor #atrelando o valor a pagar ao valor inserido pelo usuário
 while True:
-    if atual <= apagar:
-        apagar -= atual
-        cedulas += 1
+    if atual <= apagar: #se a cedula atual for menor ou igual ao valor a pagar:
+        apagar -= atual #digo que a variável a pagar será igual a ela subtraida da cedula atual
+        cedulas += 1 # somo uma cédula
     else:
         print(f'{cedulas} de R${atual}')
         if apagar == 0:

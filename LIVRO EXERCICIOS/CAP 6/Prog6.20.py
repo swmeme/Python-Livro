@@ -41,6 +41,7 @@ for n in exemplo_lista:
 '''
 Como programamos em pyton essa linguagem tem algumas técnicas que podem
 ser utilizadas: https://docs.python.org/3/howto/sorting.html#sortinghowto
+Como os exemplos abaixo:
 '''
 lista2 = [3,2,17,4,5,49,11,21]
 # Existe a função sorted:
